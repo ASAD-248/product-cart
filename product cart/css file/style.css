@@ -1,0 +1,122 @@
+@font-face{
+    font-family: bold;
+    src: url("../assests/fonts/Poppins-Bold.ttf");
+}
+@font-face{
+    font-family: light;
+    src: url("../assests/fonts/Poppins-Light.ttf");
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    background: gray;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    gap: 5rem;
+    background: background: rgb(2,0,36);
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1)
+     0%, rgba(9,9,121,1) 20%, rgba(5,179,160,1) 63%, rgba(0,212,255,1) 100%);
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    background: white;
+    text-align: left;
+    align-items: center;
+    padding: 20px 20px;
+    border-radius: 10px;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+.seller-box {
+    margin-bottom: 30px;
+    text-align: left;
+    
+    width: 100%; 
+   
+    position: relative;
+    top: 0;
+    left: 0;
+    padding: 10px 0px;
+}
+.seller-box span{
+    background: #ffcbfc;
+   
+    border-radius: 3px;
+    font-family: light;
+    font-weight: 600;
+    font-size: 18px;
+    padding: 5px 5px;
+}
+.card .img-box{
+    height: 300px;
+    width: 300px;
+    background-size:cover;
+    margin: 0px 0px;
+   
+}
+.card .img-box img{
+    height: 100%;
+    width: 100%;
+}
+.card .heading{
+    width: 350px;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+
+}
+.card .heading h4{
+    font-family: bold;
+    font-size: 25px;
+    
+}
+.label {
+    
+    width: 100%;
+    margin-bottom: 5px;
+}
+.label span{
+    color: gray;
+    font-family: light;
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 60px;
+}
+.label p{
+    font-family: bold;
+    font-size: 18px;
+    
+}
+.buttons{
+    display: flex;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    
+}
+.buttons .cart-btn{
+    background: rgb(225, 225, 225);
+    /* padding: 5px 30px; */
+    height: 65px;
+    width: 165px;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    color: gray;
+    font-size: 18px;
+   
+}
+.buttons .buy-btn{
+    background: #de33ed;
+    color: white;
+}
